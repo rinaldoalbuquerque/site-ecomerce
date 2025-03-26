@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu E-commerce</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bela Utilidades</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Produtos</a></li>
+                <li><a href="cart.html">Carrinho (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="banner">
+            <h2>Bem-vindo ao Melhor E-commerce!</h2>
+            <p>Encontre os melhores produtos aqui.</p>
+        </section>
+
+        <section id="featured-products">
+            <h2>Produtos em Destaque</h2>
+            <div class="product-list" id="product-list">
+                <!-- Os produtos serão carregados aqui via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
